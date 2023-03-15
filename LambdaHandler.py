@@ -20,10 +20,10 @@
 
 # import tweepy
 
-# consumer_key = '17r6mqdlrf7XCVwvF8870CTor'
-# consumer_secret = 'D9PMqz5L67MjJgYEGAEio17Opl6IMdSNiUZTFlrNA5zVnwnPjZ'
-# access_token = 'NlQ2d0FzdFN5X2pCZl9aTUl1T3A6MTpjaQ'
-# access_token_secret = 'RYQ_O3zMg7rK8Ldhc35FdT2HjlXX8kJbmYWiXZKiS85swfO6bZ'
+# consumer_key = 'xxxx'
+# consumer_secret = 'xxxxxx'
+# access_token = 'xxxx'
+# access_token_secret = 'xxxxx'
 
 # # Autenticando com o Tweepy
 # auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
