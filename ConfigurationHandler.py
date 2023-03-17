@@ -1,11 +1,11 @@
 import tweepy
 import pandas as pd
 
-API_Key = '8TQw8HdM6fOD5m6iPt1CIGeeN'
-API_Key_Secret = 'wOmLCuaJVAIf2Si2GnpNmFUDdoMEXMuiAMPOyy8WEdX9aBmDWB'
-Bearer_Token = 'AAAAAAAAAAAAAAAAAAAAAMpvfQEAAAAAji%2BFcxYgkj84vKXMur%2FIklyHYdw%3DxALMyt62l7X9rQdp0O7eQxFyusIhvIVWVxnPd3tpFk1d9tWB5X'
-Access_Token = '1552641461983772674-saiFZ3IAiplzbt02zISxBMR6faOACB'
-Access_Token_Secret = 'RHqN3CpPYnKoYL3kWy70ortnKxV5sN9XRHnZGJahpArfy'
+API_Key = 'xxxx'
+API_Key_Secret = 'xxxxx'
+Bearer_Token = 'xxxxxx'
+Access_Token = 'xxxx-xxxxx'
+Access_Token_Secret = 'xxxxxx'
 
 auth = tweepy.OAuthHandler(API_Key, API_Key_Secret)
 auth.set_access_token(Access_Token, Access_Token_Secret)
