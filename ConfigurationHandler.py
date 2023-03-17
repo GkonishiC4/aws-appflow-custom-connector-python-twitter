@@ -19,7 +19,7 @@ try:
 except Exception as e:
     print("Erro ao autenticar com a API do Twitter:", e)
 
-termo = "Ucrania"
+termo = "Lula"
 
 tweets = tweepy.Cursor(api.search_tweets, q=termo).items(1000)
 
