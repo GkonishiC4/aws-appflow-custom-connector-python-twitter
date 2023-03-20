@@ -1,7 +1,6 @@
 # importar as bibliotecas
 import os
 import tweepy
-import requests
 from io import BytesIO
 import boto3
 import pandas as pd
