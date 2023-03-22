@@ -1,4 +1,4 @@
-import tweepy
+import tweepy as tw
 import pandas as pd
 
 API_Key = '8TQw8HdM6fOD5m6iPt1CIGeeN'
@@ -7,10 +7,10 @@ Bearer_Token = 'AAAAAAAAAAAAAAAAAAAAAMpvfQEAAAAAji%2BFcxYgkj84vKXMur%2FIklyHYdw%
 Access_Token = '1552641461983772674-saiFZ3IAiplzbt02zISxBMR6faOACB'
 Access_Token_Secret = 'RHqN3CpPYnKoYL3kWy70ortnKxV5sN9XRHnZGJahpArfy'
 
-auth = tweepy.OAuthHandler(API_Key, API_Key_Secret)
+auth = tw.OAuthHandler(API_Key, API_Key_Secret)
 auth.set_access_token(Access_Token, Access_Token_Secret)
 
-api = tweepy.API(auth)
+api = tw.API(auth)
 
 # Verificando se a autenticação foi bem sucedida
 try:
@@ -21,7 +21,7 @@ except Exception as e:
 
 termo = "Governo"
 
-tweets = tweepy.Cursor(api.search_tweets, q=termo).items(1000)
+tweets = tw.Cursor(api.search_tweets, q=termo).items(1000)
 
 lista_tweets = []
 
@@ -32,4 +32,4 @@ for tweet in tweets:
 df_tweets = pd.DataFrame(lista_tweets, columns=[
                          "id", "data_criacao", "texto", "Linguagem"])
 
-df_tweets.to_json('test43123.json', orient='records')
+df_tweets.to_json('test4312231233.json', orient='records')
